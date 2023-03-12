@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Header = () => {
-  const [toggle, setToggle] = useState(false);
+function Header () {
 
   return (
     <header>
@@ -14,9 +13,7 @@ const Header = () => {
         </ul>
      </nav>
 
-      {/* Toggle button */}
-      <button onClick={handleToggle} className="hidden">
-      </button>
+
     </header>
   );
 };

@@ -20,12 +20,12 @@ function Footer() {
           <a href=":mailto:n.kenadiid@gmail.com">Email</a>
           <div class="logo">
             <a href="https://uk.linkedin.com/in/nuseyba-kenadid-a97832227">
-              <img src={LinkedInLogo} style={styles.logo}></img>
+              <img src={LinkedInLogo} style={styles.logo} alt="linkedin logo"></img>
             </a>
           </div>
           <div class="logo">
             <a href="https://github.com/NazKena">
-              <img src={GitHubLogo} style={styles.logo}></img>
+              <img src={GitHubLogo} style={styles.logo} alt="github logo"></img>
             </a>
           </div>
         </div>

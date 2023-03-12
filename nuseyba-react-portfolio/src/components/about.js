@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../App"
+
+
 
 function About() {
   return (
     <div>
-      <h1>This is the home page</h1>
+      <Navbar/>
+      <h1>About Me</h1>
       <p>
         I am an English and Creative Writing graduate who has recently found
         that a different career path may be exactly what is needed to spark

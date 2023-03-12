@@ -1,5 +1,6 @@
 import React from "react";
 import ProfilePicture from "../img/Nuseyba Kenadid.png";
+import { Link } from "react-router-dom";
 
 const styles = {
   container: {
@@ -15,12 +16,9 @@ const styles = {
     right: "0",
     zIndex: "99",
   },
-
 };
 
-
 function Header() {
-
   return (
     <div>
       <h1>Nuseyba Kenadid</h1>
@@ -29,29 +27,16 @@ function Header() {
         style={styles.container}
         alt="Nuseyba Kenadid"
       ></img>
-      <nav style={styles.topnav}>
-        <ul>
-          <li>
-            <a href="#about-me">
-              <button>About Me</button>
-            </a>
-          </li>
-          <li>
-            <a href="#creative-work">
-              <button> Creative Work</button>
-            </a>
-          </li>
-          <li>
-            <a href="#projects">
-              <button>Projects</button>
-            </a>
-          </li>
-          <li>
-            <a href="#contact-me">
-              <button>Contact Me</button>
-            </a>
-          </li>
-        </ul>
+      <nav>
+        <button>
+          <Link to="About">About Me</Link>
+        </button>
+        <button>
+          <Link to="Projects">Projects</Link>
+        </button>
+        <button>
+          <Link to="Contact">Contact Me</Link>
+        </button>
       </nav>
     </div>
   );

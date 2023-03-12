@@ -4,6 +4,7 @@ import PassGenImg from "../img/127.0.0.1_5500_Develop_index.html.jpeg";
 import ProfileGenImg from "../img/Screenshot 2023-03-01 at 13.32.34.png";
 import VimGalleryImg from "../img/Screenshot 2023-03-11 at 16.47.01.png";
 
+
 const styles = {
   row: {
     display: "flex",
@@ -15,7 +16,6 @@ const styles = {
     borderRadius: "1%",
   },
   }
-
 function Projects() {
 
   return (
@@ -64,7 +64,7 @@ function Projects() {
           </a>
         </li>
       </div>
-    </div>
+    </div>  
   );
 }
 

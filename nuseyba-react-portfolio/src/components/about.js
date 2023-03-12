@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../App"
+import Footer from "./footer";
 
 function About() {
   return (
@@ -13,6 +14,7 @@ function About() {
         enhance my skills not only throughout the duration of this bootcamp but
         through the entirety of my software development journey.
       </p>
+      <Footer/>
     </div>
   );
 }

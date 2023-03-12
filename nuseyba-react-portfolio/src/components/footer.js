@@ -10,12 +10,10 @@ const styles = {
 
 };
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer style={{ width: "40%", height: "40%",left: "0", bottom: "0",}}>
-        <div class="phone">
-          <a href="tel:074ººººººººººº">Phone Number</a>
-        </div>
+    <div>
+    <footer style={{ width: "40%", height: "40%",left: "0", bottom: "0",}}>       
         <div class="email">
           <a href=":mailto:n.kenadiid@gmail.com">Email</a>
           <div class="logo">
@@ -30,6 +28,7 @@ function Footer() {
           </div>
         </div>
     </footer>
+    </div>
   );
 }
 

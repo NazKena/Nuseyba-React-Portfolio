@@ -4,6 +4,7 @@ import PassGenImg from "../img/127.0.0.1_5500_Develop_index.html.jpeg";
 import ProfileGenImg from "../img/Screenshot 2023-03-01 at 13.32.34.png";
 import VimGalleryImg from "../img/Screenshot 2023-03-11 at 16.47.01.png";
 import Navbar from "../App"
+import Footer from "./footer";
 
 
 const styles = {
@@ -67,6 +68,7 @@ function Projects() {
           ></img>
           </a>
         </li>
+        <Footer/>
       </div>
     </div>  
    </div> 

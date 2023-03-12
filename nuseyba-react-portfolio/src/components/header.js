@@ -1,4 +1,5 @@
 import React from "react";
+import setBodyColour from "../components/setBodyColour"
 import ProfilePicture from "../img/Nuseyba Kenadid.png";
 
 const styles = {
@@ -16,10 +17,14 @@ const styles = {
     zIndex: "99",
   },
 
-  
 };
 
+
+
 function Header() {
+
+  setBodyColour({colour:"#E3BC9A"})
+
   return (
     <div>
       <h1>Nuseyba Kenadid</h1>

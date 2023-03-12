@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../App"
-
+import Navbar from "../App";
+import Footer from "./footer";
 
 function Contact() {
   return (
     <div>
-            <Navbar/>
+      <Navbar />
       <h3>Contact Form</h3>
 
       <div className="container">
@@ -29,6 +29,7 @@ function Contact() {
           ></textarea>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }

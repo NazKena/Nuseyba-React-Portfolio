@@ -3,21 +3,19 @@ import About from './components/about';
 import Footer from "./components/footer";
 import Projects from './components/project';
 import './App.css';
+import { Routes, Route } from "react-router-dom"
 
-const styles = {
-  backgroundColour: "#C8ADC0",
-
-}
 function App() {
-
   return (
-    <>
-    <Header/>
-    <About/>
-    <Footer/>
-    <Projects/>
-   </>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={ <About/> } />
+        <Route path="header" element={ <Header/> } />
+        <Route path="projects" element={ <Projects/> } />
+        <Route path="footer" element={ <Footer/> } />
+      </Routes>
+    </div>
   )
-  }
+}
 
-export default App;
+export default App

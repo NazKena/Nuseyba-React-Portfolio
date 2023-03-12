@@ -1,4 +1,15 @@
 import React from "react";
+import GitHubLogo from "../img/GitHub-Mark.png";
+import LinkedInLogo from "../img/LinkedIn_icon_circle.svg.png"
+
+
+
+const styles = {
+  logo:{
+    width: "10%",
+    display: "inline-block",
+  },
+}
 
 function Footer() {
 
@@ -10,13 +21,11 @@ function Footer() {
       </div>
       <div class="email">
         <a href=":mailto:n.kenadiid@gmail.com">Email</a>
-        <div>
-          <a href="https://uk.linkedin.com/in/nuseyba-kenadid-a97832227">
-            LinkedIn
-          </a>
+        <div class="logo">
+          <a href="https://uk.linkedin.com/in/nuseyba-kenadid-a97832227"><img src={LinkedInLogo} style={styles.logo}></img></a>
         </div>
-        <div class="github">
-          <a href="https://github.com/NazKena">GitHub</a>
+        <div class="logo">
+          <a href="https://github.com/NazKena"><img src={GitHubLogo} style={styles.logo}></img></a>
         </div>
       </div>
     </section>

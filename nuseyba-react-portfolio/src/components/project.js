@@ -14,36 +14,38 @@ const styles = {
     width: "30%",
     borderRadius: "1%",
   },
-};
+
+  }
+
+
 
 function Projects() {
   return (
     <div id="creative-work">
       <h2>Creative Work</h2>
       <p>
-        Here I will inclde both my services as well as outlets that serve to
+        Here I will include my services as well as outlets that serve to
         showcase my creative skills.
       </p>
       <div class="row">
         <li>
           <h3>Note Taker</h3>
-
-          <li></li>
-
           <a href="https://github.com/NazKena/Note_Taker">
             <img
               src={NoteTakerImg}
               style ={styles.creativeWork}
-              onClick="https://github.com/NazKena/Note_Taker"
+              alt = "Screenshot image of Note Taker"              
             />
           </a>
 
           <h3>Password Generator</h3>
+          <a href="https://github.com/NazKena/JavaPassGen">
           <img
             src={PassGenImg}
             style={styles.creativeWork}
             alt="photo of Nuseyba Kenadid"
           ></img>
+          </a>
 
           <h3>Vim Gallery</h3>
           <img

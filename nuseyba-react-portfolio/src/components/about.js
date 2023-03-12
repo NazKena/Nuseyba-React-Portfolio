@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../App"
-
-
 
 function About() {
   return (
@@ -16,7 +13,6 @@ function About() {
         enhance my skills not only throughout the duration of this bootcamp but
         through the entirety of my software development journey.
       </p>
-      <Link to="Projects">Click to view my project page</Link>
     </div>
   );
 }

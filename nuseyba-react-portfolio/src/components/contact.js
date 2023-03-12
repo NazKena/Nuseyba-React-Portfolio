@@ -5,6 +5,7 @@ import Navbar from "../App"
 function Contact() {
   return (
     <div>
+            <Navbar/>
       <h3>Contact Form</h3>
 
       <div className="container">

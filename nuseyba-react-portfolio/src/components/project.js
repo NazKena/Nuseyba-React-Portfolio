@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NoteTakerImg from "../img/Screenshot 2023-03-07 at 19.52.44.png";
 import PassGenImg from "../img/127.0.0.1_5500_Develop_index.html.jpeg";
 import ProfileGenImg from "../img/Screenshot 2023-03-01 at 13.32.34.png";
@@ -17,9 +17,8 @@ const styles = {
 
   }
 
-
-
 function Projects() {
+
   return (
     <div id="creative-work">
       <h2>Creative Work</h2>
@@ -34,7 +33,7 @@ function Projects() {
             <img
               src={NoteTakerImg}
               style ={styles.creativeWork}
-              alt = "Screenshot image of Note Taker"              
+              alt = "Screenshot  of Note Taker"              
             />
           </a>
 
@@ -43,24 +42,27 @@ function Projects() {
           <img
             src={PassGenImg}
             style={styles.creativeWork}
-            alt="photo of Nuseyba Kenadid"
+            alt="Password Generator"
           ></img>
           </a>
 
           <h3>Vim Gallery</h3>
+          <a href="https://github.com/BondT1">
           <img
             src={VimGalleryImg}
             style={styles.creativeWork}
-            alt="photo of Nuseyba Kenadid"
+            alt="Vim Gallery Screenshot"
           ></img>
+          </a>
 
           <h3>Team Profile Generator</h3>
-          <a href=""></a>
+          <a href="https://github.com/NazKena">
           <img
             src={ProfileGenImg}
             style={styles.creativeWork}
-            alt="photo of Nuseyba Kenadid"
+            alt="Nuseyba Kenadid"
           ></img>
+          </a>
         </li>
       </div>
     </div>

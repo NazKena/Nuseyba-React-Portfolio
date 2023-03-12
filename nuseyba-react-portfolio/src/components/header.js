@@ -9,7 +9,7 @@ const styles = {
 
   topnav: {
     position: "fixed",
-    width: "45%",
+    width: "25%",
     display: "inline",
     textAlign: "end",
     right: "0",
@@ -27,7 +27,7 @@ function Header() {
       <img
         src={ProfilePicture}
         style={styles.container}
-        alt="photo of Nuseyba Kenadid"
+        alt="Nuseyba Kenadid"
       ></img>
       <nav style={styles.topnav}>
         <ul>

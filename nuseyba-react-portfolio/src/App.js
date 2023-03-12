@@ -4,7 +4,10 @@ import Footer from "./components/footer";
 import Projects from './components/project';
 import './App.css';
 
+const styles = {
+  backgroundColour: "#C8ADC0",
 
+}
 function App() {
 
   return (

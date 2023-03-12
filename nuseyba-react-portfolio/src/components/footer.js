@@ -7,18 +7,12 @@ const styles = {
     width: "10%",
     display: "flex",
   },
-    container: {
-    display: "flex",
-    flexDirection: "column",
-    left: "0",
-    bottom: "0",
-    },
+
 };
 
 function Footer() {
   return (
-    <footer style={styles.container}>
-      <section>
+    <footer style={{ width: "40%", height: "40%",left: "0", bottom: "0",}}>
         <div class="phone">
           <a href="tel:074ººººººººººº">Phone Number</a>
         </div>
@@ -35,7 +29,6 @@ function Footer() {
             </a>
           </div>
         </div>
-      </section>
     </footer>
   );
 }

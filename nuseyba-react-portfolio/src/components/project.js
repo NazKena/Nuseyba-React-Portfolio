@@ -14,7 +14,6 @@ const styles = {
     width: "30%",
     borderRadius: "1%",
   },
-
   }
 
 function Projects() {

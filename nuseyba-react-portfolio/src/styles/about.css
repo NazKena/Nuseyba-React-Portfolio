@@ -1,0 +1,82 @@
+/*-- Content begins here --*/
+
+body div {
+    width: 210px ;
+    height: 168px;
+}
+
+div #container1 {
+    display: flex;
+}
+
+button {
+   margin-left: 20px;
+   padding: 9px 25px;
+   background-color: #482105;
+   color: #E3BC9A;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+}
+
+
+#creative-work {
+    position: relative;
+    text-align: left;
+    left: 120px;
+    top: -125px;
+    margin: 0;
+}
+
+.container img {
+    width: 200x;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#projects {
+    text-align: center;
+    left: 120px;
+    width: 200px;
+    height: 300px;
+}
+
+#about-me {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    right: 120px;
+    width: 200px;
+    height: 300px;
+    border: 4px solid #482105;
+}
+  
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 47px;
+    border: 3px solid brown;
+}
+
+#creative-work {
+    left: 0;
+}
+
+#creative-work img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.content {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 80px;
+    top: 40px;
+}

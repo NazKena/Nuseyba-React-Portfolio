@@ -1,0 +1,40 @@
+/*-- Footer begins here --*/
+
+#contact-me { 
+    display: flex;  
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  
+    @media screen and (max-width: 600px) {
+      #about-me {
+          float: none;
+          width: 100%;
+      }
+    }
+  
+    @media screen and (max-width:600px) {
+      #creative-work {
+          float: none;
+          width: 100%;
+      } 
+    }
+  
+    @media screen and (max-width: 600px) {
+      .container2 {
+        float: none;
+        width: 100%;
+      }
+    }
+  
+      

@@ -25,33 +25,41 @@ function Projects() {
         showcase my creative skills.
       </p>
       <div class="row">
-        <h3>Note Taker</h3>
-        <img
-          src={NoteTakerImg}
-          style={styles.creativeWork}
-          alt="photo of Nuseyba Kenadid"
-        ></img>
+        <li>
+          <h3>Note Taker</h3>
 
-        <h3>Password Generator</h3>
-        <img
-          src={PassGenImg}
-          style={styles.creativeWork}
-          alt="photo of Nuseyba Kenadid"
-        ></img>
+          <li></li>
 
-        <h3>Vim Gallery</h3>
-        <img
-          src={VimGalleryImg}
-          style={styles.creativeWork}
-          alt="photo of Nuseyba Kenadid"
-        ></img>
+          <a href="https://github.com/NazKena/Note_Taker">
+            <img
+              src={NoteTakerImg}
+              style ={styles.creativeWork}
+              onClick="https://github.com/NazKena/Note_Taker"
+            />
+          </a>
 
-        <h3>Team Profile Generator</h3>
-        <img
-          src={ProfileGenImg}
-          style={styles.creativeWork}
-          alt="photo of Nuseyba Kenadid"
-        ></img>
+          <h3>Password Generator</h3>
+          <img
+            src={PassGenImg}
+            style={styles.creativeWork}
+            alt="photo of Nuseyba Kenadid"
+          ></img>
+
+          <h3>Vim Gallery</h3>
+          <img
+            src={VimGalleryImg}
+            style={styles.creativeWork}
+            alt="photo of Nuseyba Kenadid"
+          ></img>
+
+          <h3>Team Profile Generator</h3>
+          <a href=""></a>
+          <img
+            src={ProfileGenImg}
+            style={styles.creativeWork}
+            alt="photo of Nuseyba Kenadid"
+          ></img>
+        </li>
       </div>
     </div>
   );

@@ -1,1 +1,28 @@
-# Nuseyba-React-Portfolio
+#  Nuseyba-React-Portfolio
+
+# Tracking Employees
+
+## Table of Contents
+
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation and Usage](#installation-and-usage)
+- [Screenshot](#screenshot)
+- [Video Demonstration](#video-link)
+
+## Description
+
+This is an application that will work by allowing buisness to view and manage departments, roles and employees in the company so that they are able to organize and plan their buisness 
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+## Installation and Usage
+
+To install this application, npm must be installed which is done by typing command `create-react-app` followed by the name of your repository and react app will be created.
+
+## Screenshot

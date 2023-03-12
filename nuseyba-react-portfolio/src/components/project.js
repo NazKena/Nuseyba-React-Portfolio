@@ -28,10 +28,9 @@ function Projects() {
       <h2>Creative Work</h2>
       <p>
         Here I will include my services as well as outlets that serve to
-        showcase my creative skills.
+        showcase my creative skills. Click on each application to be taken 
       </p>
       <div class="row">
-        <li>
           <h3>Note Taker</h3>
           <a href="https://github.com/NazKena/Note_Taker">
             <img
@@ -67,7 +66,6 @@ function Projects() {
             alt="Nuseyba Kenadid"
           ></img>
           </a>
-        </li>
         <Footer/>
       </div>
     </div>  

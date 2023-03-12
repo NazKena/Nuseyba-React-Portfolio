@@ -4,7 +4,7 @@ import ProfilePicture from "../img/Nuseyba Kenadid.png";
 
 const styles = {
   container: {
-    width: "30%",
+    width: "20%",
     borderRadius: "60%",
   },
 

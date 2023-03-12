@@ -8,7 +8,7 @@
 - [Technologies](#technologies)
 - [Installation and Usage](#installation-and-usage)
 - [Screenshot](#screenshot)
-- [Video Demonstration](#video-link)
+
 
 ## Description
 

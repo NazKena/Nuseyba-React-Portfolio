@@ -26,3 +26,5 @@ This is an application that will work by allowing buisness to view and manage de
 To install this application, npm must be installed which is done by typing command `create-react-app` followed by the name of your repository and react app will be created.
 
 ## Screenshot
+
+![image](./nuseyba-react-portfolio/src/img/Screenshot%202023-03-12%20at%2023.31.13.png)

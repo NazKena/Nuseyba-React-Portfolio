@@ -5,8 +5,8 @@ import LinkedInLogo from "../img/LinkedIn_icon_circle.svg.png";
 const styles = {
   logo: {
     width: "30%",
-    whiteSpace:'nowrap',
-    display:'flex',
+    whiteSpace: "nowrap",
+    display: "flex",
   },
 };
 
@@ -14,8 +14,6 @@ const Footer = () => {
   return (
     <div>
       <footer style={{ width: "40%", height: "40%", left: "0", bottom: "0" }}>
-        <div class="email">
-          <a href=":mailto:n.kenadiid@gmail.com">Email</a>
           <div class="logo">
             <a href="https://uk.linkedin.com/in/nuseyba-kenadid-a97832227">
               <img
@@ -30,7 +28,6 @@ const Footer = () => {
               <img src={GitHubLogo} style={styles.logo} alt="github logo"></img>
             </a>
           </div>
-        </div>
       </footer>
     </div>
   );

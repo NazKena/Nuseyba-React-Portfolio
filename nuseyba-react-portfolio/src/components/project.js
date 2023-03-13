@@ -31,31 +31,37 @@ function Projects() {
       </p>
       <div class="row">
           <h3>Note Taker</h3>
-          <a href="https://github.com/NazKena/Note_Taker">
+          <a href="https://herokus-note-taker.herokuapp.com/">
             <img
               src={NoteTakerImg}
               style ={styles.creativeWork}
               alt = "Screenshot  of Note Taker"              
             />
           </a>
+          <p><a href="https://github.com/NazKena/Note_Taker">GitHub Link</a></p>
+
 
           <h3>Password Generator</h3>
-          <a href="https://github.com/NazKena/JavaPassGen">
+          <a href="https://nazkena.github.io/JavaPassGen/">
           <img
             src={PassGenImg}
             style={styles.creativeWork}
             alt="Password Generator"
           ></img>
           </a>
+          <p><a href="https://github.com/NazKena/JavaPassGen">GitHub Link</a></p>
+
 
           <h3>Vim Gallery</h3>
-          <a href="https://github.com/BondT1">
+          <a href="https://bondt1.github.io/Project-1-Vim-Gallery/">
           <img
             src={VimGalleryImg}
             style={styles.creativeWork}
             alt="Vim Gallery Screenshot"
           ></img>
           </a>
+          <p><a href="https://github.com/BondT1/Project-1-Vim-Gallery">GitHub Link</a></p>
+
 
           <h3>Team Profile Generator</h3>
           <a href="https://github.com/NazKena">
@@ -65,6 +71,8 @@ function Projects() {
             alt="Nuseyba Kenadid"
           ></img>
           </a>
+          <p><a href="https://github.com/NazKena/Tracking_Employees">GitHub Link</a></p>
+
         <Footer/>
       </div>
     </div>  

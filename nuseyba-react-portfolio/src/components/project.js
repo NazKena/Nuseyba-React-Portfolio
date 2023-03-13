@@ -22,8 +22,7 @@ function Projects() {
 
   return (
     <div>
-            <Navbar/>
-
+                 <Navbar/>
     <div id="creative-work">
       <h2>Creative Work</h2>
       <p>

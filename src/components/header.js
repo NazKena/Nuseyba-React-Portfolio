@@ -27,17 +27,6 @@ function Header() {
         style={styles.container}
         alt="Nuseyba Kenadid"
       ></img>
-      <nav>
-        <button>
-          <Link to="About">About Me</Link>
-        </button>
-        <button>
-          <Link to="Projects">Projects</Link>
-        </button>
-        <button>
-          <Link to="Contact">Contact Me</Link>
-        </button>
-      </nav>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../App";
+import Navbar from "./navbar";
 import Footer from "./footer";
 
 const style = {
@@ -12,7 +12,6 @@ const style = {
 function Contact() {
   return (
     <div>
-      <Navbar />
       <h3>Contact Form</h3>
       <div className="container">
         <form action="/action_page.php">
@@ -26,7 +25,6 @@ function Contact() {
           <input type="submit" value="Submit"></input>
         </form>
       </div>
-      <Footer />
     </div>
   );
 }

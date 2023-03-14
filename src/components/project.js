@@ -3,7 +3,7 @@ import NoteTakerImg from "../img/Screenshot 2023-03-07 at 19.52.44.png";
 import PassGenImg from "../img/127.0.0.1_5500_Develop_index.html.jpeg";
 import ProfileGenImg from "../img/Screenshot 2023-03-01 at 13.32.34.png";
 import VimGalleryImg from "../img/Screenshot 2023-03-11 at 16.47.01.png";
-import Navbar from "../App"
+import Navbar from "./navbar"
 import Footer from "./footer";
 
 
@@ -22,7 +22,6 @@ function Projects() {
 
   return (
     <div>
-                 <Navbar/>
     <div id="creative-work">
       <h2>Creative Work</h2>
       <p>
@@ -72,8 +71,6 @@ function Projects() {
           ></img>
           </a>
           <p><a href="https://github.com/NazKena/Tracking_Employees">GitHub Link</a></p>
-
-        <Footer/>
       </div>
     </div>  
    </div> 

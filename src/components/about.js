@@ -1,11 +1,10 @@
 import React from "react";
-import Navbar from "../App";
+import Navbar from "./navbar";
 import Footer from "./footer";
 
 function About() {
   return (
     <div>
-      <Navbar />
       <h1>About Me</h1>
       <p>
         I am an English and Creative Writing graduate who has recently found
@@ -14,7 +13,6 @@ function About() {
         enhance my skills not only throughout the duration of this bootcamp but
         through the entirety of my software development journey.
       </p>
-      <Footer />
     </div>
   );
 }
